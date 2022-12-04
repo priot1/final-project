@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+
+<html lang="ru" xmlns="http://www.w3.org/1999/xhtml"
+
+>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" href="css/stylereg.css   ">
+</head>
+<body>
+
+
+
+<div class="main">
+    <div class="main-header">
+        <div class="main-header-logo">Гидроциклы</div>
+        <div class="main-header-frontend">гидроциклы</div>
+        <div class="main-header-registration">Регистрация</div>
+        <div class="main-header-entrance">Вход</div>
+
+
+    </div>
+
+        <div class="main-form">
+            <h2 class="main-form__heading">Регистрация</h2>
+
+            <form action="">
+                <label><span class="main-form-email__text">* Email</span><span class="main-form-email__error"></span>
+                <p> <input type="email" id="main-form__email" placeholder="johndoe@email.com" class="main-form__input-first"></label>
+
+               </p>
+                <label for="main-form__password"class="main-form__password__label"><span class="main-form-password__text">* Пароль</span><span class="main-form-password__error"></span></label>
+
+                <p><input type="password" id="main-form__password" placeholder="Введите пароль" class="main-form__input-second"></p>
+                <label for="main-form__password-replay"class="main-form__password__label"><span class="main-form-password-replay__text">* Подтвержение пароля</span><span class="main-form-password-replay__error"></span></label>
+                <p><input type="password" id="main-form__password-replay" placeholder="Подвердите пароль" class="main-form__input-third"></p>
+
+                <p class="main-form__text">Пол</p>
+                <label><input type="radio" id="main-form-radio__man" class="main-form__radio" name="custom-radio">
+                    <span class="custom-radio-btn"> <span class="main-form-radio__text">Мужчина</span> </span>
+                </label>
+
+                <p><label><input type="radio" id="main-form-radio__woman" class="main-form__radio" name="custom-radio">
+                    <span class="custom-radio-btn"><span class="main-form-radio__text">Женщина</span></span>
+                </label></p>
+
+                <p class="main-form__text-about-me">О себе</p>
+                <textarea name="" id="main-form__textarea" placeholder="Раскажите о себе..." class="main-form__textarea" cols="30" rows="10"></textarea>
+                <p> <label><input type="checkbox" id="main-form__checkbox" class="main-form__checkbox">
+                    <span class="custom-checkbox-btn"></span><span class="main-form-checkbox__text">Я согласен получать обновления на почту</span>
+                </label></p>
+            <button type="button" class="main-form__button" value="вход">Регистрация</button></form>
+        </div>
+
+    </div>
+
+<script src="js/registration.js"></script>
+
+</body>
+</html>
