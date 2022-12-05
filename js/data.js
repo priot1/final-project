@@ -64,7 +64,7 @@ const goodsList = [
   },
   {
     id: 8,
-    link: 'img/img/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 8.png',
+    link: 'img/gidrotsikl-brp-seadoo-gti-130hp-se-blackmango-orange-73936232995706_small6 8.png',
     colorAmount: '3',
     title: 'Гидроцикл BRP SeaDoo WAKE 230hp PRO Teal blue\n',
     price: '1 229 711 ₽',
@@ -130,8 +130,8 @@ const goodsList = [
     colorAmount: '2',
     title: 'Ultra 300X 2013',
     price: '790 500',
-    link: 'ing/3846_306374_kawasaki_ultra_300x_2013.w0.h243.png',
-    brand: 'kawasaki-',
+    link: 'img/3846_306374_kawasaki_ultra_300x_2013.w0.h243.png',
+    brand: 'kawasaki',
     category: 'Гидроциклы'
   },
   {
@@ -163,6 +163,7 @@ const goodsList = [
   },
   {
     id: 19,
+    colorAmount: '1',
     title: 'Yamaha FX Cruiser HO - 2022',
     price: '1 880 000',
     link: 'img/1392.220x0.png',
