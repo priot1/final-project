@@ -1,0 +1,322 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	min-width: 320px;
+	color: #1d1d1d;
+	background: url("../img/fon.png ") ;
+
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+section{
+	padding: 60px 0;
+}
+h2 {
+	text-align: center;
+		margin-bottom: 30px;
+	font: 50px Calibri;
+	color: #141419;
+	font-weight: 700;
+		text-decoration: underline;
+	text-decoration-color: #fb973b;
+}
+h4 {
+	margin: 0 auto;
+		font: 24px Calibri;
+	color: #616161;
+}
+.text-left{
+	margin-left: 20px;
+
+}
+p{
+	font: 20px Calibri;
+	color: #616161;
+}
+
+/* =============================header============================== */
+.main-header{
+	/*height: 100vh; */
+	min-height:500px;
+	position: relative;
+}
+.main-header .navbar-brand,
+.main-header ul li a{
+	color: #fff;
+	font-weight: 600;
+}
+.main-header .navbar-brand{
+	font-size: 41px;
+}
+.main-header ul li a{
+	font-size: 17px;
+}
+.main-header ul li a::after{
+	content: '';
+	display: block;
+	width: 100%;
+	background-color: #fff;
+	height: 1px;
+	transform: scale(0);
+	transition: all .3s;
+}
+.main-header ul li a:hover::after{
+	transform: scale(1);
+}
+.main-header-text {
+		color: #fff;
+	padding: 20px;
+	background: url(../img/kartinochky.png) ;
+	background-size:100% 100% ;
+
+}
+.main-header-text h2, h4 {
+	/*position: absolute;
+	top: 25%;
+	left: 5%; */
+	max-width: 600px;
+}
+.button{
+	background-color: #fb973b;
+	padding: 25px;
+	width: 250px;
+	color: white;
+	text-align: center;
+	border: 1px solid #fb973b;
+}
+.tel{
+	background-color: #f8f8f8;
+	padding: 25px;
+	width: 250px;
+	text-align: center;
+	color: #4d4d51;
+	border: 1px solid #f8f8f8;
+}
+.main-header-buttons{
+	padding-left: 30px;
+}
+
+
+
+.about_list   {
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	border-radius: 50%;
+	width: 20px;
+	line-height: 20px;
+	height: 20px;
+	color: #fcbc80;
+	border: 1px solid #fcbc80;
+	position: relative;
+	transform: translateX(-50%);
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 18px; }
+.about_list:before {
+	display: block;
+	content: "";
+	position: absolute;
+	width: 1px;
+	height: 20px;
+	background-color: #fcbc80;
+	left: 50%;
+	bottom: 50%;
+	transform: translate(50%, -50%); }
+.about_list:after {
+	content: "";
+	display: block;
+	width: 1px;
+	height: 20px;
+	background-color: #fcbc80;
+	position: absolute;
+	left: 50%; }
+.section_form input{
+	width: 600px;
+	height: 60px;
+}
+.section_form textarea{
+	width: 600px;
+	height: 160px;
+}
+
+.color{
+	color: #fb973b;
+}
+.bg-input{
+	background-color:#eaeaea;
+}
+
+.navbar_tel{
+			color: #4d4d51;
+	}
+.nav-item{
+	font: 18px Calibri;
+	color: #616161;
+}
+.navbar-nav{
+	padding-left: 15%;
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.main-header-text{
+		background-color: rgba(0,0,0,.3);
+	}
+	section{
+		padding: 50px 0;
+	}
+	.section-reviews h3,
+	.section-reviews h4{
+		font-size: 25px;
+	}
+	.section-reviews .blockquote{
+		font-size: 17px;
+		padding-left: 20px;
+		margin-top: 40px;
+	}
+	.section-reviews .blockquote::before{
+		font-size: 100px;
+		top: -40px;
+	}
+}
+
+@media only screen and (max-width : 991px) {
+	.navbar-nav{
+		background: linear-gradient(45deg, #ed1b33 0%,#442e82 100%);
+		position: relative;
+		z-index: 1;
+		padding: 0 15px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.main-header-text{
+		left: 0;
+		margin: 0 20px;
+		max-width: 100%;
+	}
+	h3, h4{
+		font-size: 30px;
+	}
+
+}
+
+@media only screen and (max-width : 600px) {
+	.main-header-text {
+		top: 90px;
+	}
+
+	.main-header-buttons button {
+		display: block;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+
+	.main-header-buttons button:last-child {
+		margin-top: 0;
+	}
+
+	/* Extra Small Devices, Phones */
+
+	@media only screen and (max-width: 380px) {
+		.main-header .navbar-brand {
+			font-size: 30px;
+		}
+
+		/* Large Devices, Wide Screens */
+		@media only screen and (max-width: 1200px) {
+
+		}
+
+		/* Medium Devices, Desktops */
+		@media only screen and (max-width: 992px) {
+			.main-header-text {
+				background-color: rgba(0, 0, 0, .3);
+			}
+
+			section {
+				padding: 50px 0;
+			}
+
+			.section-reviews h3,
+			.section-reviews h4 {
+				font-size: 25px;
+			}
+
+			.section-reviews .blockquote {
+				font-size: 17px;
+				padding-left: 20px;
+				margin-top: 40px;
+			}
+
+			.section-reviews .blockquote::before {
+				font-size: 100px;
+				top: -40px;
+			}
+		}
+
+		@media only screen and (max-width: 991px) {
+			.navbar-nav {
+				background: linear-gradient(45deg, #ed1b33 0%, #442e82 100%);
+				position: relative;
+				z-index: 1;
+				padding: 0 15px;
+			}
+		}
+
+
+		/* Small Devices, Tablets */
+		@media only screen and (max-width: 768px) {
+			.main-header-text {
+				left: 0;
+				margin: 0 20px;
+				max-width: 100%;
+			}
+
+			h3, h4 {
+				font-size: 30px;
+			}
+
+
+		}
+
+		@media only screen and (max-width: 600px) {
+			.main-header-text {
+				top: 90px;
+			}
+
+			.main-header-buttons button {
+				display: block;
+				width: 100%;
+				margin-bottom: 15px;
+			}
+
+			.main-header-buttons button:last-child {
+				margin-top: 0;
+			}
+
+			.btn-shadow {
+				box-shadow: 0 5px 0 #ff5990;
+				padding: 10px 15px;
+			}
+		}
+
+
+
+
+
+		@media only screen and (max-width: 380px) {
+			.main-header .navbar-brand {
+				font-size: 30px;
+			}
+		}
+	}
+}
